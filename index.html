@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./wgx-animation.css">
+    <style>
+        body{
+           text-align: center;
+        }
+    h2 {
+    width: 300px;height: 30px;
+    color: #f35626;
+    /* background-image: linear-gradient(92deg, #f35626 0%,#feab3a 100%); */
+    /* -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: hue 60s infinite linear; */
+    background-color: aqua;
+    }
+    </style>
+    <!-- 
+        动画分析过程：
+            1：动画运动轨迹与运动现象
+            2：想一下那些css属性可以实现这样效果
+            3：根据运动轨迹变化进行百分比划分（不一定等分）
+                划分方式：找到几个特殊的【峰值】，在峰值与峰值之间进行划分
+            4：在每个不同的百分比区间更改属性的值
+            5：如果是渐进式的：值越来越小；知道小到回到最初状态
+            
+            
+            
+            运动轨迹常用的 平移 旋转 拉伸 显示隐藏 透明度
+     -->
+
+
+
+</head>
+<body>
+    <h1>展示自己的动画样式</h1>
+    <h2 class="animation bounce">bounce弹跳动画</h2>
+
+    <h2 class="animation flash delay-4s">flash闪烁</h2>
+
+    <h2 class="animation flasher">flasher3频率快闪</h2>
+  
+    <h2 class="animation pules">pules缩放动画</h2>
+
+    <h2 class="animation pulesfont">pilesfont字体放大</h2>
+
+    <h2 class="animation rubberBand" style="display:inline-block;"> rubberBand字体拉伸</h2>
+    <h2 class="animation shake">shake抖动</h2>
+    <h2 class="animation swing"> swing摇摆</h2>
+    <h2 class="animation grafuallyput">grafuallyput摇摆缩放</h2>
+    <h2 class="animation turntable">turntable摇晃转盘</h2>
+    <h2 class="animation jello">jello拉伸</h2>
+    <h2 class="animation lightenout">lightenout左侧闪现</h2>
+    <h2 class="animation lightenoutleft">lightenout左侧闪现</h2>
+    <h2 class="animation lightenoutright">lightenout左侧闪现</h2>
+    <h2 class="animation inauguration">
+            inauguration开幕式
+    </h2>
+    <h2 class="animation inaugurationtop">inaugurationtop</h2>
+    <h2 class="animation inaugurationbottom">inaugurationbottom</h2>
+    <h2 class="animation heartbeat fast">heartbeat心跳</h2>
+    <h2 class="animation bounceLeft">bounceLeft</h2>
+    <h2 class="animation bounceRight">bounceRight</h2>
+    <h2 class="animation bouncetop">bouncetop</h2>
+    <h2 class="animation bounceIn">bounceIn</h2>
+    <h2 class="animation bounceOut">  bounceOUt外部</h2> -->
+    <!-- <h2 class="animation bounceOutDown fast">bounceOutDown</h2> -->
+    <!-- <h2 class="animation bounceOutup">bounceOutup</h2>
+    <h2 class="animation bounceOutLeft"></h2>
+    <h2 class="animation bounceOutRight"></h2>
+</body>
+</html>
